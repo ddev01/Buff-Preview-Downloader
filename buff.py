@@ -6,8 +6,8 @@ browser = webdriver.Chrome()
 
 downloadLocation = 'C:/Users/Admin/Desktop/knives/'
 linkURL = [
-    'https://buff.163.com/goods/759682#tab=selling&page_num=',
-    'https://buff.163.com/goods/759640#tab=selling&page_num='
+    'https://buff.163.com/goods/759682#tab=selling',
+    'https://buff.163.com/goods/759640#tab=selling'
     ]
 counter = 100
 browser.get('https://buff.163.com/')
